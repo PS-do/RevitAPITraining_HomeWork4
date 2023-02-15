@@ -80,7 +80,7 @@ namespace Task4_2
                 workBook.Close();
             }
 
-            System.Diagnostics.Process.Start(excelPatch);
+            System.Diagnostics.Process.Start(excelPatch);// открываем только что созданный файл по указанному пути
 
 
             return Result.Succeeded;
