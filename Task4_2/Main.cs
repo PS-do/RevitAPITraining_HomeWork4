@@ -45,9 +45,9 @@ namespace Task4_2
             {
                 OverwritePrompt = true,//если файл существует, выдавать запрос на его перезапись
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop),//начальная папка, скоторой будет начинаться диалог
-                Filter = "All files(*.*)|*.*",//фильтр отображаемых файлов по расширению
-                FileName = "pipesInfo.хlsx",//Имя файла по умолчанию
-                DefaultExt = ".хlsx"//Расширение по умолчани
+                Filter = "All files(*.*)|*.*|.xlsx(*.xlsx)|*.xlsx",//фильтр отображаемых файлов по расширению
+                FileName = "pipesInfo.xlsx",//Имя файла по умолчанию
+                DefaultExt = ".xlsx"//Расширение по умолчани
             };
             string excelPatch = string.Empty;
 
