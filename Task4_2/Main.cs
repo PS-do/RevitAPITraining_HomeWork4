@@ -72,7 +72,6 @@ namespace Task4_2
                         UnitUtils.ConvertFromInternalUnits(pipe.get_Parameter(BuiltInParameter.RBS_PIPE_OUTER_DIAMETER).AsDouble(), UnitTypeId.Meters));// наружный диаметр трубы,
                     sheet.SetCellValue(rowIndex, columnIndex: 2,
                         UnitUtils.ConvertFromInternalUnits(pipe.get_Parameter(BuiltInParameter.RBS_PIPE_INNER_DIAM_PARAM).AsDouble(), UnitTypeId.Meters));// внутренний диаметр трубы,
-
                     sheet.SetCellValue(rowIndex, columnIndex: 3,
                         UnitUtils.ConvertFromInternalUnits(pipe.get_Parameter(BuiltInParameter.CURVE_ELEM_LENGTH).AsDouble(), UnitTypeId.Meters));// длина трубы.
                     rowIndex++;
